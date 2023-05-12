@@ -1,0 +1,20 @@
+2023-04-13 14:51:15.590  INFO 6048 --- [main] com.example.WebStudyApplication          : Starting WebStudyApplication using Java 1.8.0_351 on CDZB-PF2PA734 with PID 6048 (C:\Users\ext.qiuyc1\IdeaProjects\WebStudy\target\classes started by ext.qiuyc1 in C:\Users\ext.qiuyc1\IdeaProjects\WebStudy)
+2023-04-13 14:51:15.594  INFO 6048 --- [main] com.example.WebStudyApplication          : The following 1 profile is active: "dev"
+2023-04-13 14:51:16.600  INFO 6048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-13 14:51:16.611  INFO 6048 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-13 14:51:16.612  INFO 6048 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-04-13 14:51:16.934  INFO 6048 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-13 14:51:16.934  INFO 6048 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1299 ms
+2023-04-13 14:51:17.543  INFO 6048 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@100c8b75, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c0e13b7, org.springframework.security.web.header.HeaderWriterFilter@7b948f3e, org.springframework.security.web.authentication.logout.LogoutFilter@75d982d3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1c26273d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@561b7d53, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2cae9b8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2bc378f7, org.springframework.security.web.session.SessionManagementFilter@77a074b4, org.springframework.security.web.access.ExceptionTranslationFilter@45acdd11, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e041285]
+2023-04-13 14:51:17.627  INFO 6048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-13 14:51:17.643  INFO 6048 --- [main] com.example.WebStudyApplication          : Started WebStudyApplication in 2.679 seconds (JVM running for 4.114)
+2023-04-13 14:52:44.732  INFO 6048 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-13 14:52:44.732  INFO 6048 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-13 14:52:44.734  INFO 6048 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-13 14:52:44.821  INFO 6048 --- [http-nio-8080-exec-2] com.example.controller.MainController    : 有人访问登录页面
+2023-04-13 14:52:45.081  INFO 6048 --- [http-nio-8080-exec-4] com.example.controller.MainController    : 有人访问登录页面
+2023-04-13 14:53:01.599  INFO 6048 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-13 14:53:02.548  INFO 6048 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-13 14:53:02.817  INFO 6048 --- [http-nio-8080-exec-9] com.example.controller.MainController    : 有人访问系统
+2023-04-13 14:53:41.961  INFO 6048 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-13 14:53:41.973  INFO 6048 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
