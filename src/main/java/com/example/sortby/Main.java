@@ -2,19 +2,24 @@ package com.example.sortby;
 
 import java.util.Arrays;
 
-import static com.example.sortby.QuickSort.quickSort;
+import static com.example.sortby.InsertionSort.insertionsort;
 
-public class Main {
+public class Main implements Cloneable {
+//    重写克隆方法
+    @Override
+    public Object clone() throws CloneNotSupportedException{
+        return super.clone();
+    }
     public static void main(String[] args) {
-        int arr[] = {15,3,28,37,2,17,49,87,12,9,56};
+        int arr[] = {28,74,32,16,8,12,25,57,32,9,1,29};
 //      冒泡排序
 //        bubbleSort(arr);
 //        System.out.println(Arrays.toString(arr));
 //      插入排序
-//        insertionsort(arr);
+        insertionsort(arr);
 //        System.out.println(Arrays.toString(arr));
 //      快速排序
-        quickSort(arr,0, arr.length-1);
+//        quickSort(arr,0, arr.length-1);
         System.out.println(Arrays.toString(arr));
     }
 }

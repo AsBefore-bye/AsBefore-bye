@@ -10,10 +10,10 @@ public class QuickSort {
         int j = high;
         int tmp = arr[low];
         while (i < j) {
-            while (tmp >= arr[j] && i < j) {
+            while (tmp <= arr[j] && i < j) {
                 j--;
             }
-            while (tmp <= arr[i] && i < j) {
+            while (tmp >= arr[i] && i < j) {
                 i++;
             }
             if (i < j) {
